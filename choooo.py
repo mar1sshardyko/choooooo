@@ -30,3 +30,20 @@ class Hello_World(Hello):
         super().__init__()
         print ("world")
 HELLO_WORLD = Hello_World()
+#LESSON6
+import requests
+help (requests)
+def first_function():
+    pass
+class FirstClass:
+    pass
+rq= requests
+first_f = FirstClass
+stormspirit = FirstClass
+print (requests.__name__)
+print (rq.__name__)
+print (__name__)
+print(type(__name__))
+ls = ""
+for i in dir(ls):
+    print (i)
