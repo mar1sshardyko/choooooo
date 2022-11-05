@@ -29,4 +29,4 @@ class Hello_World(Hello):
     def __init__(self):
         super().__init__()
         print ("world")
-HELLO_WORLD = Hello_World
+HELLO_WORLD = Hello_World()
